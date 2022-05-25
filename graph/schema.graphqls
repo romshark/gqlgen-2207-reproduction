@@ -1,0 +1,22 @@
+type Query {
+  e(
+    e1: E1!
+    e2: E2!
+    e3: E3!
+  ): Boolean!
+}
+
+enum E1 {
+  true
+  okay
+}
+
+enum E2 {
+  false
+  okay
+}
+
+enum E3 {
+  null
+  okay
+}
